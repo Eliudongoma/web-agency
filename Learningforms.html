@@ -1,0 +1,75 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<title>HTML Forms</title>
+			<link rel="stylesheet" type="text/css" href="forms.css">
+		</head>
+		<body>
+			<div class="marshal">
+				<div class="wamathe">
+					<h1>User data entry form</h1>
+				</div>		
+				<form>
+					<div class="sacco">
+						<fieldset id="get">
+							<legend>Fill necessary details:</legend>
+							<label>User name:
+								<input type="text" name="user" placeholder="Fill in the username">
+							</label>
+							<br>
+							<br>
+							<label>Password:
+								<input type="password" name="pass" placeholder="Enter password">
+
+							</label>
+							<br>
+							<br>
+							<label>Gender:
+								Male:<input type="radio" name="gender" value="male">
+								Female:<input type="radio" name="gender" value="female">
+								Other:<input type="radio" name="gender" value="other">
+							</label>
+							<br>
+							<br>
+							<div class="atri">
+								<label>Skills:
+									HTML:<input type="checkbox" name="HTML">
+									CSS:<input type="checkbox" name="CSS">
+									PHP:<input type="checkbox" name="PHP">
+									Java:<input type="checkbox" name="Java">
+									Javascript:<input type="checkbox" name="Javascript">
+								</label>
+							</div>
+
+							<br>
+							<br>
+							<label>Select your county:
+								<select name="counties">
+									<option value="Select your county">Select your county</option>
+									<option value="Nairobi">Nairobi</option>
+									<option value="Naivasha">Naivasha</option>
+									<option value="Kitale">Kitale</option>
+									<option value="Momabasa">Momabasa</option>
+									<option value="Moyale">Moyale</option>
+									<option value="Garrissa">Garrissa</option>
+								</select>
+							</label>
+							<br>
+							<br>
+							<div class="wanabe">
+								<label>Comments:								
+									<textarea name="here" placeholder="Write here" rows="10" cols="25">
+									</textarea>												
+										<!-- <button>Submit Data</button> -->
+									<div id="giits">
+										<input type="Submit" name="Submit" value="sign up">
+									</div>
+									
+								</label>
+							</div>
+						</fieldset>
+					</div>
+				</form>
+			</div>
+		</body>
+		</html>
